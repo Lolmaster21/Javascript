@@ -29,13 +29,14 @@ class Main {
         case 1:
           System.out.println("You're in room 1, you can go East");
           input = Doggo.nextLine();
-          System.out.println("You got: " +money);
+          System.out.println("You got this amount of cash: " +money);
           if (input.equals("East"))
             room = 2;
           break;
         case 2:
           System.out.println("You're in room 2, you can go West or South");
           input = Doggo.nextLine();
+          System.out.println("You got this amount of cash: " +money);
           if (input.equals("South"))
             room = 3;
           else if (input.equals("West"))
